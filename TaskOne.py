@@ -1,0 +1,23 @@
+print("В первом задании поработаем с переменными ")
+number_a = int(input("Введите целое число a: "))
+number_b = int(input("Введите целое число b: "))
+print(number_a + number_b)
+print(number_a - number_b)
+print(number_a * number_b)
+print(number_a / number_b)
+print(number_a // number_b)
+print(number_a % number_b)
+print(number_a ** number_b)
+print(number_a < number_b)
+print(number_a > number_b)
+print(number_a == number_b)
+print(number_a != number_b)
+print(number_a and number_b)
+print(number_a or number_b)
+# print(number_a not True number_b) - не поняла этот оператор
+print(number_a in [number_b])
+print(number_a is number_b)
+
+person_name = str(input("Please, enter your name: "))
+some_str = 'Hello, ' + person_name + '!'
+print(some_str)
